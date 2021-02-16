@@ -11,16 +11,17 @@ import React from 'react';
 //Aqui estoy importando otro componente para ser utilizado en este componente
 import SayHello from './SayHello';
 import Tweet from './Tweet';
+import "./App.css"
 
 //Un componente es basicamente una funcion de javascript que dentro tendra un return y aqui podremos retornar
-//Ya sea codigo javascript, html y hasta codigo css para estar claro componente == funcion
+//Ya sea codigo javascript, html y hasta codigo css para estar claro componente es como una funcion
 function App(){
 
   return (
     
     //Luego de importado el componente llamarlo mediante el uso de tags y el nombre del componente
     //En este caso estamos llamando a sayhello
-    <div>
+    <div className="App">
       <h1>This is the app component</h1>
       <Tweet />
       <br></br>
@@ -31,4 +32,5 @@ function App(){
 
 
 //Esto quiere decir que exportaremos el componente App para poder utilizarlo en cualquier otro lugar
+//Agregamos el default para no tener que agregar parentesis a la hora de hacer import
 export default App;

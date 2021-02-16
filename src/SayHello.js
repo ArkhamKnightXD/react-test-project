@@ -2,10 +2,8 @@ import React from 'react';
 
 function SayHello(){
 
-    const sayHello = () => {
+    const sayHello = () => console.log("hello");
 
-        console.log("hello");
-      }
 
     return (
         //Esto parece html, pero en realidad es codigo javascript (JSX) que luego es transformado a html

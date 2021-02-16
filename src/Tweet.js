@@ -1,6 +1,5 @@
 import React from "react";
 //Para hacer uso de hojas de estilos tambien debemos de importarlas
-//Por alguna razon falla quedare aqui en el tutorial
 import "./App.css";
 
 //Este componente se encargara de verse y funcionar como un tweet
