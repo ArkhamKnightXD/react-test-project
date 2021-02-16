@@ -4,8 +4,13 @@ Cuando creamos un proyecto de react*/
 /*Aqui es agregariamos clases para agregar estilo a nuestros componentes cuando sea necesario*/
 
 .App {
-  height:100vh;
+  min-height:100vh;
   background: lightblue;
+
+  /*Para poner los elementos unos al lado del otro*/
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /*Estilos para el componente tweet*/
@@ -19,4 +24,10 @@ Cuando creamos un proyecto de react*/
   justify-content: space-around;
   align-items: center;
 
+}
+
+/*Para el cambio de color mediante state*/
+.red{
+  color: red;
+  font-size: 50px;
 }

@@ -5,7 +5,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 
-
 //Mediante este codigo aqui asocio mi componente app con el index.html de public
 //para que este componente se presentado donde sea que este el id root ya sea en el index.html o en otro archivo html
 ReactDOM.render(
